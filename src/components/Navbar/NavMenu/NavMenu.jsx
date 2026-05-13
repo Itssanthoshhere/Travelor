@@ -282,7 +282,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
               />
             </span>
             <ul
-              className={`mt-2 text-white border border-gray-50/10 shadow-lg rounded-xl transition-all duration-300 z-50 w-fit lg-min-w-full min-w-50 ${pagesOpen ? "opacity-100 visible translate-y-0 h-auto" : "opacity-0 invisible h-0"}`}
+              className={`mt-2 text-white border border-gray-50/10 shadow-lg rounded-xl transition-all duration-300 z-50 w-fit lg:min-w-full min-w-50 ${pagesOpen ? "opacity-100 visible translate-y-0 h-auto" : "opacity-0 invisible h-0"}`}
             >
               <li>
                 <Link
