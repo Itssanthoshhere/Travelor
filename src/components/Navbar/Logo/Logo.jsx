@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Logo = ({ className = "" }) => {
+const Logo = () => {
   return (
     <>
       <Link
