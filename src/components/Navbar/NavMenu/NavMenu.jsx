@@ -304,7 +304,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
 
               <li>
                 <Link
-                  to="testimonials"
+                  to="/testimonials"
                   className="block px-4 py-2 hover:translate-x-1 transition"
                 >
                   Testimonials
