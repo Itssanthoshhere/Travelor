@@ -13,7 +13,7 @@ const Banner = () => {
           loop
           className="w-full h-full object-cover"
         >
-          <source src={video} />
+          <source src={video} type="video/mp4" />
         </video>
 
         <div className="absolute inset-0 flex justify-center items-center">
