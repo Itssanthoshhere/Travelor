@@ -18,9 +18,8 @@ const Blogs = () => {
             </h1>
 
             <p className="text-gray-200/80 my-2 text-lg">
-              Maybe for a travel blog, wildlife site, or web development project
-              here are a few sample templates you can use to simulate real-time
-              news updates:
+              Discover the latest travel stories, tips, and destination updates.
+              Stay inspired with fresh articles designed to help you plan your next adventure.
             </p>
           </div>
 
