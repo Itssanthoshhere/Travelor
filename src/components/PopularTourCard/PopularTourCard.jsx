@@ -47,7 +47,7 @@ const PopularTourCard = ({ tour }) => {
             />
 
             <div className="tour-price flex items-center gap-1 text-secondary">
-              <span className="text-2xl font-bont">{tour.price}</span>
+              <span className="text-2xl font-bold">{tour.price}</span>
 
               <span className="text-sm">Per Day</span>
             </div>
