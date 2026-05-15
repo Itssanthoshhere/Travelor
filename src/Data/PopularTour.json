@@ -12,42 +12,42 @@
       "day1": {
         "title": "Arrival & City Orientation",
         "list": [
-          "Check out of your hotel and proceed to visit the renowned Madame Tussauds wax museum.",
-          "Travel by high-speed Eurostar train (02nd Class) from London to Paris.",
-          "Arrive in Paris and check-in at your hotel.",
-          "Leisure day - take the opportunity to explore McArthurGlen, just a short distance from your hotel.",
-          "Overnight in Paris (Breakfast, Lunch, Dinner included)."
+          "Arrive at Bangkok International Airport and meet local representative.",
+          "Transfer to hotel in Bangkok Old City.",
+          "Visit the Grand Palace and sacred Temple of the Emerald Buddha.",
+          "Explore the historic Wat Phra Kaew and local temples.",
+          "Overnight in Bangkok Old City (Breakfast, Lunch, Dinner included)."
         ]
       },
       "day2": {
         "title": "Grand Palace & Temple Tour",
         "list": [
-          "Visit iconic landmarks: Big Ben, Houses of Parliament, Westminster Abbey, Trafalgar Square, Piccadilly Circus, Tower Bridge, River Thames, Hyde Park.",
-          "Witness the Changing of the Guards at Buckingham Palace (subject to operation).",
-          "Visit the legendary Lord’s Cricket Ground; ride the London Eye.",
-          "Overnight in London (Breakfast, Lunch, Dinner included).",
+          "Visit the famous Wat Arun (Temple of Dawn) on the riverside.",
+          "Traditional wooden house tour and local market exploration.",
+          "Longtail boat tour through Bangkok's floating markets and canals.",
+          "Overnight in Downtown Bangkok (Breakfast, Lunch, Dinner included).",
           "Guided city tour with an expert local guide."
         ]
       },
       "day3": {
         "title": "Floating Market & Shopping",
         "list": [
-          "Visit iconic landmarks: Big Ben, Houses of Parliament, Westminster Abbey, Trafalgar Square, Piccadilly Circus, Tower Bridge, River Thames, Hyde Park.",
-          "Witness the Changing of the Guards at Buckingham Palace (subject to operation).",
-          "Visit the legendary Lord’s Cricket Ground; ride the London Eye.",
-          "Overnight in London (Breakfast, Lunch, Dinner included).",
-          "Guided city tour with an expert local guide."
+          "Early morning visit to Damnoen Saduak Floating Market.",
+          "Experience traditional Thai village life and local crafts.",
+          "Visit local artisan shops and markets.",
+          "Overnight in Riverside Bangkok (Breakfast, Lunch, Dinner included).",
+          "Traditional Thai massage and spa therapy."
         ],
-        "rewards": "Rising to 1,717 meters above sea level, it offers adventurous travelers a moderately challenging hike that rewards."
+        "rewards": "Experience the authentic charm of Bangkok's ancient temples and waterways that reward visitors with unforgettable cultural insights."
       },
       "day4": {
         "title": "Departure",
         "list": [
-          "Guided city tour of Paris with an expert local guide.",
-          "Discover iconic attractions: Place Vendôme, Place de l’Opéra Garnier, Musée d’Orsay, Place de la Concorde, Champs Elysées, Arc de Triomphe, Alexander Bridge, Les Invalides, and more.",
-          "Overnight in Paris (Breakfast, Lunch, Dinner included).",
-          "Visit the magnificent Palace of Versailles, a world-renowned UNESCO site.",
-          "(Please note that access to the Eiffel Tower's 3rd level is contingent on its operational status. If it happens to be closed during our visit, we will explore the 2nd level instead, which offers fantastic views and insights into the Eiffel Tower's history.)"
+          "Breakfast at hotel.",
+          "Last-minute shopping at local markets.",
+          "Transfer to airport for departure.",
+          "End of Bangkok Cultural Heritage Tour.",
+          "Depart with treasured memories of Thai hospitality and culture."
         ]
       }
     }
@@ -253,9 +253,9 @@
     "id": 5,
     "title": "Maldives Luxury Water Villa",
     "review": "3.5 review",
-    "days": "5 days",
+    "days": "4 days",
     "price": "$52",
-    "duration": "5 Days &4 Nights",
+    "duration": "4 Days &3 Nights",
     "places": "3N Overwater Villa | Speedboat Transfer | Water Sports | Private Island Luxury",
     "image": "/src/assets/Index/PopularToursPage/tour-05.jpg",
     "daysDescription": {
@@ -272,9 +272,9 @@
         "title": "Water Sports & Island Activities",
         "list": [
           "Relax with a floating breakfast in your water villa.",
-          "Enjoy classic attractions: Pirates of the Caribbean, Haunted Mansion, Space Mountain.",
-          "Meet Disney characters and enjoy live shows.",
-          "Evening parade & spectacular fireworks show."
+          "Enjoy water sports: snorkeling, kayaking, and windsurfing.",
+          "Visit nearby house reef for world-class diving.",
+          "Evening drinks at the resort bar overlooking the lagoon."
         ]
       },
       "day3": {
