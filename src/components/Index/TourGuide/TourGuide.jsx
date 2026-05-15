@@ -70,7 +70,7 @@ const TourGuide = () => {
                   <div className="team-img rounded-2xl overflow-hidden group">
                     <img
                       src={member.image}
-                      alt="team-img"
+                      alt={`${member.name} - Tourist Guide`}
                       className="group-hover:scale-110 transition-all duration-300"
                     />
                   </div>
