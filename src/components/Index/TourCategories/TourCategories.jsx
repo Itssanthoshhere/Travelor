@@ -26,19 +26,19 @@ const categories = [
   {
     id: 2,
     title: "Hiking",
-    pera: "Here are the people who we believe most changed the stories that defined the past year.",
+    pera: "Explore scenic trails from gentle forest walks to steeper ridge hikes, with beautiful viewpoints, varied terrain, and local guides helping you pace the route. Perfect for outdoor lovers who want fresh air, wildlife spotting, and memorable natural scenery.",
     image: ctg2,
   },
   {
     id: 3,
     title: "Adventure Tours",
-    pera: "Prime Minister Anthony Albanese has plenty of reasons to ban social media for under-16s.",
+    pera: "Enjoy adrenaline-packed activities like white-water rafting, zip-lining, and canyon treks with expert guides and safety equipment provided. Designed for thrill seekers who want active, high-energy journeys balanced by careful planning and support.",
     image: ctg3,
   },
   {
     id: 4,
     title: "Cultural Tours",
-    pera: "The seven-time Formula One world champion moves to the iconic brand after more than a decade with Mercedes",
+    pera: "Discover heritage landmarks, local markets, museums, and traditional performances with immersive storytelling and authentic experiences. Ideal for curious travelers seeking history, cuisine, arts, and meaningful connections with local communities.",
     image: ctg4,
   },
   {
@@ -48,13 +48,13 @@ const categories = [
     image: ctg5,
   },
   {
-    id: 5,
+    id: 6,
     title: "Dark Tourism",
-    pera: "After inauguration day, it is on Trump and America to ensure that the oath to defend the U.S. Constitution is kept.",
+    pera: "Visit carefully curated historical sites, memorials, and museums that honor difficult pasts with context and respect. Best for thoughtful travelers who want educational, reflective journeys that emphasize remembrance and ethical engagement.",
     image: ctg6,
   },
   {
-    id: 6,
+    id: 7,
     title: "View All",
     isButton: true,
   },
