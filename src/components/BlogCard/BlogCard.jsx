@@ -1,4 +1,9 @@
 const BlogCard = ({ blog }) => {
+  const publicationDate = new Date(blog.publishedAt || blog.date);
+  const month = !Number.isNaN(publicationDate.getTime())
+    ? publicationDate.toLocaleString("default", { month: "long" })
+    : "";
+
   return (
     <>
       <div className="blog-item relative group overflow-hidden rounded-xl shadow-lg">
@@ -11,7 +16,7 @@ const BlogCard = ({ blog }) => {
 
           <div className="blog-date text-secondary bg-[#DBEEEE] absolute top-0 right-0 flex flex-col text-center m-2 px-5 py-3 leading-tight shadow-xl rounded-xl">
             <span className="text-4xl font-bold">{blog.date}</span>
-            <span>June</span>
+            <span>{month}</span>
           </div>
 
           <div className="blog-content absolute bottom-4 left-4 z-10">
