@@ -9,6 +9,7 @@ import Testimonials from "./Testimonials/Testimonials";
 import Banner from "./Banner/Banner";
 import Counter from "./Counter/Counter";
 import Tours from "./Tours/Tours";
+import Blogs from "./Blogs/Blogs";
 
 const Index = () => {
   return (
@@ -23,6 +24,7 @@ const Index = () => {
       <Banner />
       <Counter />
       <Tours />
+      <Blogs />
     </>
   );
 };
