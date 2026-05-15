@@ -27,7 +27,10 @@ const Blogs = () => {
         </div>
 
         <div className="blog-wrap grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
-          {blogdata.slice(0, 3).map((item) => (
+          {[...blogdata]
+            .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
+            .slice(0, 3)
+            .map((item) => (
             <BlogCard key={item.id} blog={item} />
           ))}
         </div>
