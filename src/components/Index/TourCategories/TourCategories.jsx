@@ -126,7 +126,7 @@ const TourCategories = () => {
         </div>
 
         <div className="relative lg:absolute xl:right-40 bottom-8 flex flex-col text-white font-kaushan! text-xl sm:text-2xl xl:text-start text-end xl:text-5xl z-1">
-          Wornderful Place For You
+          Wonderful Place For You
           <h2 className="uppercase font-afacad! font-extrabold text-4xl lg:text-6xl xl:text-8xl text-yellow">
             Tour Categories
           </h2>
