@@ -15,12 +15,42 @@ import { Icon } from "@iconify/react";
 import quote from "../../../assets/Index/Testimonials/Quote.png";
 
 const testimonials = [
-  { id: 1, name: "Kavin Martin", image: tst1 },
-  { id: 2, name: "Alex Morgan", image: tst2 },
-  { id: 3, name: "John Carter", image: tst3 },
-  { id: 4, name: "Sophia Lee", image: tst4 },
-  { id: 5, name: "Daniel Smith", image: tst5 },
-  { id: 6, name: "Emma Watson", image: tst6 },
+  {
+    id: 1,
+    name: "Kavin Martin",
+    image: tst1,
+    text: "Travelor made our family trip effortless with great accommodations, friendly local guides, and a perfect mix of adventure and relaxation.",
+  },
+  {
+    id: 2,
+    name: "Alex Morgan",
+    image: tst2,
+    text: "The itinerary was well planned, the service was excellent, and we discovered hidden gems we never would have found on our own.",
+  },
+  {
+    id: 3,
+    name: "John Carter",
+    image: tst3,
+    text: "From seamless booking to unforgettable excursions, every detail was handled professionally and the experience exceeded expectations.",
+  },
+  {
+    id: 4,
+    name: "Sophia Lee",
+    image: tst4,
+    text: "Travelor helped me explore cultural highlights with knowledgeable guides, amazing food, and authentic local experiences.",
+  },
+  {
+    id: 5,
+    name: "Daniel Smith",
+    image: tst5,
+    text: "The adventure package was thrilling yet comfortable, with safety always prioritized and exciting activities every day.",
+  },
+  {
+    id: 6,
+    name: "Emma Watson",
+    image: tst6,
+    text: "I appreciated the thoughtful recommendations and smooth support throughout the journey — a truly memorable holiday.",
+  },
 ];
 
 const Testimonials = () => {
@@ -90,9 +120,7 @@ const Testimonials = () => {
                 </span>
 
                 <p className="pt-5 text-[20px] font-medium text-secondary/80">
-                  I Was Very Impresed Lorem posuere in miss drana en the nisan
-                  semere sceriun amiss etiam ornare in the miss drana is lorem
-                  fermen nunta mauris.
+                  {item.text}
                 </p>
               </div>
             </SwiperSlide>
