@@ -6,6 +6,7 @@ import TopDestination from "./TopDestination/TopDestination";
 import TourGuide from "./TourGuide/TourGuide";
 import TourCategories from "./TourCategories/TourCategories";
 import Testimonials from "./Testimonials/Testimonials";
+import Banner from "./Banner/Banner";
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
       <TourGuide />
       <TourCategories />
       <Testimonials />
+      <Banner />
     </>
   );
 };
