@@ -481,7 +481,7 @@ const Footer = () => {
             </h4>
 
             <p className="sm:text-lg xl:text-xl">
-              Sign up to searing weekly newsletter to get the latest updates.
+              Sign up to our weekly newsletter to get the latest updates.
             </p>
           </div>
 
