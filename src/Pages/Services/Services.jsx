@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 import sectionBanner from "../../assets/section-banner.jpg";
 
-import icon1 from "../../assets/Index/About/travel-guide.png";
-import icon2 from "../../assets/Index/About/mission-icon.png";
-import MainBtn from "../../components/Buttons/MainBtn";
+import titleShape from "../../assets/Index/BookingSteps/Title-Shape.png";
 import titleShape from "../../assets/Index/BookingSteps/Title-Shape.png";
 
 import services from "../../Data/Services.json";
