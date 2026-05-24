@@ -14,7 +14,18 @@ import { Icon } from "@iconify/react";
 import destinations from "../../../Data/TopDestination.json";
 import DestinationCard from "../../DestinationCard/DestinationCard";
 
+const resolveDestinationImage = (imagePath) =>
+  new URL(
+    `../../../assets/Index/TopDestination/${imagePath.split("/").pop()}`,
+    import.meta.url,
+  ).href;
+
 const TopDestination = () => {
+  const destinationItems = destinations.map((item) => ({
+    ...item,
+    image: resolveDestinationImage(item.image),
+  }));
+
   return (
     <>
       <div className="px-[2%] sm:px-[5%] lg:px-[5%] py-[5%] bg-[#DBEEEE]">

@@ -4,7 +4,18 @@ import MainBtn from "../../Buttons/MainBtn";
 import blogdata from "../../../Data/Blogs.json";
 import BlogCard from "../../BlogCard/BlogCard.jsx";
 
+const resolveBlogImage = (imagePath) =>
+  new URL(
+    `../../../assets/Index/Blogs/${imagePath.split("/").pop()}`,
+    import.meta.url,
+  ).href;
+
 const Blogs = () => {
+  const blogItems = blogdata.map((item) => ({
+    ...item,
+    image: resolveBlogImage(item.image),
+  }));
+
   return (
     <>
       <div
@@ -19,7 +30,8 @@ const Blogs = () => {
 
             <p className="text-gray-200/80 my-2 text-lg">
               Discover the latest travel stories, tips, and destination updates.
-              Stay inspired with fresh articles designed to help you plan your next adventure.
+              Stay inspired with fresh articles designed to help you plan your
+              next adventure.
             </p>
           </div>
 
@@ -31,8 +43,8 @@ const Blogs = () => {
             .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
             .slice(0, 3)
             .map((item) => (
-            <BlogCard key={item.id} blog={item} />
-          ))}
+              <BlogCard key={item.id} blog={item} />
+            ))}
         </div>
       </div>
     </>

@@ -3,7 +3,18 @@ import titleShape from "../../../assets/Index/BookingSteps/Title-Shape.png";
 import tourData from "../../../Data/PopularTour.json";
 import PopularTourCard from "../../PopularTourCard/PopularTourCard";
 
+const resolveTourImage = (imagePath) =>
+  new URL(
+    `../../../assets/Index/PopularToursPage/${imagePath.split("/").pop()}`,
+    import.meta.url,
+  ).href;
+
 const Tours = () => {
+  const tourItems = tourData.map((tour) => ({
+    ...tour,
+    image: resolveTourImage(tour.image),
+  }));
+
   return (
     <>
       <div className="bg-[#effefe] px-[2%] sm:px-[8%] lg:px-[12%] py-[6%] md:py-[10%]">
