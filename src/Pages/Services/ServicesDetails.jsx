@@ -420,7 +420,7 @@ const ServicesDetails = () => {
                   </button>
 
                   <div
-                    className={`overflow-hidden transition-all duration-300 ${activeIndex === index ? "max0h-40 pt-3" : "max-h-0"}`}
+                    className={`overflow-hidden transition-all duration-300 ${activeIndex === index ? "max-h-40 pt-3" : "max-h-0"}`}
                   >
                     <p className="text-sm md:text-lg font-light text-secondary">
                       {faq.answer}
