@@ -803,7 +803,7 @@ img {
   font-size: 16px;
   font-family: var(--font-afacad);
   font-weight: 500;
-  transition: 0.5 all ease;
+  transition: 0.5s all ease;
   padding: 7px 20px;
   border-radius: 30px;
 }
