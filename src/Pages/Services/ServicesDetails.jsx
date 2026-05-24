@@ -20,13 +20,13 @@ import "swiper/css/pagination";
 const ServicesDetails = () => {
   const { id } = useParams();
 
+  const [activeIndex, setActiveIndex] = useState(null);
+
   const service = services.find((item) => item.id === parseInt(id));
 
   if (!service) {
     return <div className="text-center mt-20">Service Not Found</div>;
   }
-
-  const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleFAQ = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
