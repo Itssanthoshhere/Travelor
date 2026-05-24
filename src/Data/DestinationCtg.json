@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Paris",
     "slug": "paris",
-    "image": "src/assets/Destination/destination-01.jpg",
+    "image": "/src/assets/Destination/destination-01.jpg",
     "country": "France"
   },
   {
