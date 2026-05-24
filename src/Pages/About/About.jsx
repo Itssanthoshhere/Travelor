@@ -250,10 +250,10 @@ const About = () => {
 
         <div className="bg-[#daeeef] p-5 md:p-10 rounded-2xl my-10 md:my-14">
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
-            {services.map((srv, index) => {
+            {services.map((srv) => {
               return (
-                <>
                   <Link
+                    key={`${srv.id}-${srv.name}`}
                     to={`/service/${srv.id}`}
                     className="service-item bg-white shadow-xl rounded-3xl p-3 group hover:bg-secondary transition-colors duration-500 cursor-pointer"
                   >
@@ -266,14 +266,14 @@ const About = () => {
                     </div>
 
                     <span
-                      className="text-center block pt-5 pb-2 text-2xl
+                      className="text-center block pt-5 pb-2 txt-2xl
                      font-medium text-secondary group-hover:text-yellow transition-colors duration-500"
                     >
                       {srv.name}
                     </span>
                   </Link>
-                </>
               );
+            })}
             })}
           </div>
 
