@@ -9,7 +9,6 @@ import authore1 from "../../assets/Index/About/pic1.jpg";
 import authore2 from "../../assets/Index/About/pic2.jpg";
 import authore3 from "../../assets/Index/About/pic3.jpg";
 
-import airPlane from "../../assets/Index/About/airplane.png";
 import aboutimg from "../../assets/AboutPage/abt-pic1.png";
 
 import cloud from "../../assets/AboutPage/Cloud-bg.png";
@@ -279,7 +278,7 @@ const About = () => {
           </div>
 
           <div className="absolute right-40 bottom-8 hidden lg:flex flex-col text-white font-kaushan! text-2xl text-end xl:text-5xl z-1">
-            Wornderful Services For You
+            Wonderful Services For You
             <h2 className="uppercase font-afacad! font-extrabold text-4xl lg:text-6xl xl:text-8xl text-yellow">
               Services We Offer
             </h2>
