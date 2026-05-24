@@ -78,7 +78,7 @@ const Services = () => {
                   </div>
 
                   <span
-                    className="text-center block pt-5 pb-2 txt-2xl
+                    className="text-center block pt-5 pb-2 text-2xl
                      font-medium text-secondary group-hover:text-yellow transition-colors duration-500"
                   >
                     {srv.name}
