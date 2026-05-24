@@ -33,7 +33,7 @@ const Services = () => {
 
             <li>
               <Link
-                to="/about"
+                to="/services"
                 className="cursor-pointer text-sm lg:text-lg font-medium text-secondary"
               >
                 Services
