@@ -252,28 +252,27 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
             {services.map((srv) => {
               return (
-                  <Link
-                    key={`${srv.id}-${srv.name}`}
-                    to={`/service/${srv.id}`}
-                    className="service-item bg-white shadow-xl rounded-3xl p-3 group hover:bg-secondary transition-colors duration-500 cursor-pointer"
-                  >
-                    <div className="service-image rounded-3xl overflow-hidden h-60 md:h-100">
-                      <img
-                        src={srv.image}
-                        alt={srv.name}
-                        className="w-full h-full! object-cover "
-                      />
-                    </div>
+                <Link
+                  key={`${srv.id}-${srv.name}`}
+                  to={`/service/${srv.id}`}
+                  className="service-item bg-white shadow-xl rounded-3xl p-3 group hover:bg-secondary transition-colors duration-500 cursor-pointer"
+                >
+                  <div className="service-image rounded-3xl overflow-hidden h-60 md:h-100">
+                    <img
+                      src={srv.image}
+                      alt={srv.name}
+                      className="w-full h-full! object-cover "
+                    />
+                  </div>
 
-                    <span
-                      className="text-center block pt-5 pb-2 txt-2xl
+                  <span
+                    className="text-center block pt-5 pb-2 txt-2xl
                      font-medium text-secondary group-hover:text-yellow transition-colors duration-500"
-                    >
-                      {srv.name}
-                    </span>
-                  </Link>
+                  >
+                    {srv.name}
+                  </span>
+                </Link>
               );
-            })}
             })}
           </div>
 
