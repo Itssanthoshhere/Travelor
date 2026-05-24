@@ -4,7 +4,7 @@ import MainBtn from "../Buttons/MainBtn";
 const PopularTourCard = ({ tour }) => {
   return (
     <>
-      <div className="tour-card transition-all duration-300 cursor-pointer">
+      <div className="tour-card transition-all duration-300 cursor-pointer flex flex-col h-full">
         <div className="popular-tour-image">
           <img
             src={tour.image}
@@ -13,8 +13,8 @@ const PopularTourCard = ({ tour }) => {
           />
         </div>
 
-        <div className="popular-tour-content p-4">
-          <h4 className="text-lg text-secondary font-medium pb-3 hover:text-yellow transition-colors duration-300">
+        <div className="popular-tour-content p-4 flex-1 flex flex-col justify-between">
+          <h4 className="text-lg text-secondary font-medium pb-3 hover:text-yellow transition-colors duration-300 min-h-[56px] flex items-center">
             {tour.title}
           </h4>
 

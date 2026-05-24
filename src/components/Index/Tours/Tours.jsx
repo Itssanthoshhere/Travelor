@@ -36,8 +36,8 @@ const Tours = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 xl:grid-cols-4 gap-8">
-          {tourData.slice(0, 4).map((tour) => (
-            <PopularTourCard tour={tour} />
+          {tourItems.slice(0, 4).map((tour) => (
+            <PopularTourCard key={tour.id} tour={tour} />
           ))}
         </div>
       </div>
