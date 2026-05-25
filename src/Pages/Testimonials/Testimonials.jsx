@@ -95,8 +95,8 @@ export default function Testimonials() {
           </h1>
 
           <p className="text-secondary my-2 text-lg">
-            Hear what our customers have to say about their experiences with Travelor
-          </p>
+            Hear what our customers have to say about their experiences with
+            Travelor
           </p>
 
           <img
