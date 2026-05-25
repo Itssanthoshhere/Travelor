@@ -833,3 +833,27 @@ img {
     padding: 20px;
   }
 }
+
+.swiper-pagination-bullet-active {
+  background-color: var(--color-secondary) !important;
+}
+
+/* Tour Details Page */
+
+.tour-guide-list li {
+  font-family: var(--font-figtree) !important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #066168;
+  margin-bottom: 10px;
+}
+
+.tour-guide-list li span {
+  font-family: var(--font-afacad);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-secondary);
+  margin-right: 45px;
+  min-width: 100px;
+  display: inline-block;
+}
