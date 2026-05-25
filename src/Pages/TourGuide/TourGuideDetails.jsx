@@ -1,5 +1,4 @@
 import sectionBanner from "../../assets/section-banner.jpg";
-import titleShape from "../../assets/Index/BookingSteps/Title-Shape.png";
 
 import { Icon } from "@iconify/react";
 import { Link, useParams } from "react-router-dom";
