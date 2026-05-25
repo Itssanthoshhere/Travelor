@@ -11,12 +11,7 @@ import team4 from "../../../assets/Index/TourGuide/pic4.jpg";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 
-const teamMembers = [
-  { id: 1, name: "Ananya", image: team1 },
-  { id: 2, name: "Priya", image: team2 },
-  { id: 3, name: "Rakshita", image: team3 },
-  { id: 4, name: "Arjun", image: team4 },
-];
+import teamMembers from "../../../Data/Teams.json";
 
 const TourGuide = () => {
   return (
