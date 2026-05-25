@@ -9,8 +9,6 @@ import { useState } from "react";
 export default function TourGuideDetails() {
   const { id } = useParams();
 
-  const [activeIndex, setActiveIndex] = useState(null);
-
   const team = teams.find((item) => item.id === parseInt(id));
 
   if (!team) {
