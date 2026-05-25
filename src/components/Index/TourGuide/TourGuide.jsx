@@ -11,7 +11,7 @@ import team4 from "../../../assets/Index/TourGuide/pic4.jpg";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 
-import teamMembers from "../../Data/Teams.json";
+import teamMembers from "../../../Data/Teams.json";
 
 const TourGuide = () => {
   return (
