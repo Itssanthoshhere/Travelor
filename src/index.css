@@ -857,3 +857,36 @@ img {
   min-width: 100px;
   display: inline-block;
 }
+
+/* Faqs Page */
+
+.faq-element {
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(255 255 255 / 0.56);
+  border: 5px solid rgba(255 170 13 / 0.32);
+  box-shadow: 0 16px 24.7px rgb(6 97 104 / 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.faq-element svg {
+  width: 48px;
+  min-width: 48px;
+  margin-right: 30px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-element h3 {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--color-secondary);
+  margin-bottom: 0;
+}
