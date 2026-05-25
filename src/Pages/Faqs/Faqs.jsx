@@ -108,7 +108,7 @@ export default function Faqs() {
           </h1>
 
           <p className="text-gray-500 pb-5">
-            Travlla is a multi-award-winning strategy and content creation
+            Travelor is a multi-award-winning strategy and content creation
             agency that specializes in travel marketing.
           </p>
 
