@@ -172,7 +172,7 @@ export default function Faqs() {
           </h1>
 
           <p className="text-gray-200 pb-5">
-            We’love to hear from you. Our friendly team is always here to chat
+            We'd love to hear from you. Our friendly team is always here to chat
           </p>
 
           <form method="post" className="space-y-8">
