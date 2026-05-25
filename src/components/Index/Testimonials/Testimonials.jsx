@@ -84,44 +84,46 @@ const Testimonials = () => {
         >
           {testimonials.map((item) => (
             <SwiperSlide key={item.id}>
-              <div className="tst-item w-60 h-60 md:w-70 md:h-70 rounded-2xl overflow-hidden relative">
-                <img
-                  src={item.image}
-                  alt="tst-img"
-                  className="w-full h-full object-cover"
-                />
+              <div className="tst-item">
+                <div className="tst-img w-60 h-60 md:w-70 md:h-70 rounded-2xl overflow-hidden relative">
+                  <img
+                    src={item.image}
+                    alt="tst-img"
+                    className="w-full h-full object-cover"
+                  />
 
-                <div className="flex p-1 bg-black absolute bottom-0 left-0 rounded-2xl rounded-tl-none">
-                  {[...Array(5)].map((_, i) => (
-                    <Icon
-                      key={i}
-                      icon="material-symbols:star-rounded"
-                      width="20"
-                      height="20"
-                      className="text-yellow"
-                    />
-                  ))}
+                  <div className="flex p-1 bg-black absolute bottom-0 left-0 rounded-2xl rounded-tl-none">
+                    {[...Array(5)].map((_, i) => (
+                      <Icon
+                        key={i}
+                        icon="material-symbols:star-rounded"
+                        width="20"
+                        height="20"
+                        className="text-yellow"
+                      />
+                    ))}
+                  </div>
                 </div>
-              </div>
 
-              <div className="tst-content pt-2 relative">
-                <img
-                  src={quote}
-                  alt="quote"
-                  className="w-16 h-16 absolute right-0 top-0"
-                />
+                <div className="tst-content pt-2 relative">
+                  <img
+                    src={quote}
+                    alt="quote"
+                    className="w-16 h-16 absolute right-0 top-0"
+                  />
 
-                <h2 className="text-4xl font-kaushan! text-secondary">
-                  {item.name}
-                </h2>
+                  <h2 className="text-4xl font-kaushan! text-secondary">
+                    {item.name}
+                  </h2>
 
-                <span className="text-yellow text-lg font-semibold">
-                  Travelor
-                </span>
+                  <span className="text-yellow text-lg font-semibold">
+                    Travelor
+                  </span>
 
-                <p className="pt-5 text-[20px] font-medium text-secondary/80">
-                  {item.text}
-                </p>
+                  <p className="pt-5 text-[20px] font-medium text-secondary/80">
+                    {item.text}
+                  </p>
+                </div>
               </div>
             </SwiperSlide>
           ))}
