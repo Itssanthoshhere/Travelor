@@ -45,17 +45,17 @@ export default function Page404() {
       </div>
 
       <div
-        class="404-page bg-[#EFFFFF] px-[2%] sm:px-[8%] lg:px-[12%] py-[6%] md:py-[10%] flex justify-between items-center flex-wrap lg:flex-nowrap gap-10 bg-no-repeat bg-bottom"
+        className="404-page bg-[#EFFFFF] px-[2%] sm:px-[8%] lg:px-[12%] py-[6%] md:py-[10%] flex justify-between items-center flex-wrap lg:flex-nowrap gap-10 bg-no-repeat bg-bottom"
         style={{ backgroundImage: `url(${cloudbg})` }}
       >
-        <div class="content w-full lg:w-1/2">
-          <div class="title">
-            <span class="block text-[40px] font-semibold tracking-wider text-secondary leading-none">
+        <div className="content w-full lg:w-1/2">
+          <div className="title">
+            <span className="block text-[40px] font-semibold tracking-wider text-secondary leading-none">
               Oops!
             </span>
 
             <h1
-              class="flex items-center justify-center flex-wrap text-[180px] md:text-[220px] lg:text-[260px] 
+              className="flex items-center justify-center flex-wrap text-[180px] md:text-[220px] lg:text-[260px] 
                  font-semibold leading-[0.8] 
                  drop-shadow-[0px_26px_10px_rgba(6,97,104,0.26)] text-secondary"
             >
@@ -63,18 +63,18 @@ export default function Page404() {
               <img
                 src={ballon}
                 alt="balloon-img"
-                class="error-ballon-img mx-4 object-contain"
+                className="error-ballon-img mx-4 object-contain"
               />
               4
             </h1>
           </div>
 
-          <div class="page-not-found-title text-center mt-10">
-            <span class="block text-[40px] font-semibold text-secondary font-figtree">
+          <div className="page-not-found-title text-center mt-10">
+            <span className="block text-[40px] font-semibold text-secondary font-figtree">
               Page Not Found
             </span>
 
-            <p class="text-secondary text-lg lg:w-sm mx-auto pb-5">
+            <p className="text-secondary text-lg lg:w-sm mx-auto pb-5">
               The page you're looking for isn't available. Try searching again
               or go back home.
             </p>
@@ -83,8 +83,8 @@ export default function Page404() {
           </div>
         </div>
 
-        <div class="error-img w-full lg:w-1/2">
-          <img src={errorbg} alt="error-img" class="w-full h-full" />
+        <div className="error-img w-full lg:w-1/2">
+          <img src={errorbg} alt="error-img" className="w-full h-full" />
         </div>
       </div>
     </>
