@@ -12,6 +12,8 @@ import Faqs from "./Pages/Faqs/Faqs";
 import PricingPlan from "./Pages/PricingPlan/PricingPlan";
 import Destination from "./Pages/Destination/Destination";
 import DestinationDetails from "./Pages/Destination/DestinationDetails";
+import Tours from "./Pages/Tours/Tours";
+import ToursDetails from "./Pages/Tours/ToursDetails";
 
 const App = () => {
   return (
@@ -30,6 +32,8 @@ const App = () => {
           <Route path="/pricing" element={<PricingPlan />} />
           <Route path="/destination" element={<Destination />} />
           <Route path="/destination/:id" element={<DestinationDetails />} />
+          <Route path="/tours" element={<Tours />} />
+          <Route path="/tours/:id" element={<ToursDetails />} />
         </Routes>
         <Footer />
       </BrowserRouter>
