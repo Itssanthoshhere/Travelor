@@ -117,7 +117,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
 
             <li className="text-secondary font-medium">
               <Link
-                to="/error"
+                to="/pagenotfound"
                 className="block px-4 py-2 hover:translate-x-1 transition"
               >
                 Error-404
