@@ -113,7 +113,7 @@ export default function PricingPlan() {
                     height={24}
                     className="text-yellow"
                   />
-                  3 star hotel (4 nights)
+                  3-star hotel (4 nights)
                 </li>
 
                 <li className="flex items-center gap-2 text-secondary font-medium">
@@ -133,7 +133,7 @@ export default function PricingPlan() {
                     height={24}
                     className="text-yellow"
                   />
-                  Sightseeing, tickets
+                  Sightseeing
                 </li>
 
                 <li className="flex items-center gap-2 text-secondary font-medium">
@@ -195,7 +195,17 @@ export default function PricingPlan() {
                     height={24}
                     className="text-yellow"
                   />
-                  3 star hotel (4 nights)
+                  4-star hotel (4 nights)
+                </li>
+
+                <li className="flex items-center gap-2 text-secondary font-medium">
+                  <Icon
+                    icon="fluent:arrow-circle-right-16-regular"
+                    width={24}
+                    height={24}
+                    className="text-yellow"
+                  />
+                  Airport transfer
                 </li>
 
                 <li className="flex items-center gap-2 text-secondary font-medium">
@@ -215,17 +225,7 @@ export default function PricingPlan() {
                     height={24}
                     className="text-yellow"
                   />
-                  Sightseeing, tickets
-                </li>
-
-                <li className="flex items-center gap-2 text-secondary font-medium">
-                  <Icon
-                    icon="fluent:arrow-circle-right-16-regular"
-                    width={24}
-                    height={24}
-                    className="text-yellow"
-                  />
-                  Tourist visa
+                  Guided sightseeing
                 </li>
 
                 <li className="flex items-center gap-2 text-secondary font-medium">
@@ -277,7 +277,7 @@ export default function PricingPlan() {
                     height={24}
                     className="text-yellow"
                   />
-                  3 star hotel (4 nights)
+                  5-star hotel (4 nights)
                 </li>
 
                 <li className="flex items-center gap-2 text-secondary font-medium">
@@ -287,7 +287,7 @@ export default function PricingPlan() {
                     height={24}
                     className="text-yellow"
                   />
-                  Local taxis
+                  Private transport
                 </li>
 
                 <li className="flex items-center gap-2 text-secondary font-medium">
@@ -297,7 +297,17 @@ export default function PricingPlan() {
                     height={24}
                     className="text-yellow"
                   />
-                  Sightseeing, tickets
+                  Premium meals
+                </li>
+
+                <li className="flex items-center gap-2 text-secondary font-medium">
+                  <Icon
+                    icon="fluent:arrow-circle-right-16-regular"
+                    width={24}
+                    height={24}
+                    className="text-yellow"
+                  />
+                  VIP sightseeing
                 </li>
 
                 <li className="flex items-center gap-2 text-secondary font-medium">
@@ -308,16 +318,6 @@ export default function PricingPlan() {
                     className="text-yellow"
                   />
                   Tourist visa
-                </li>
-
-                <li className="flex items-center gap-2 text-secondary font-medium">
-                  <Icon
-                    icon="fluent:arrow-circle-right-16-regular"
-                    width={24}
-                    height={24}
-                    className="text-yellow"
-                  />
-                  Meals & snacks
                 </li>
               </ul>
 
