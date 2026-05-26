@@ -40,6 +40,7 @@ const App = () => {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/pagenotfound" element={<Page404 />} />
+          <Route path="*" element={<Page404 />} />
         </Routes>
         <Footer />
       </BrowserRouter>
