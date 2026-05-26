@@ -73,13 +73,11 @@ export default function Page404() {
             <span className="block text-[40px] font-semibold text-secondary font-figtree">
               Page Not Found
             </span>
-
             <p className="text-secondary text-lg lg:w-sm mx-auto pb-5">
               The page you're looking for isn't available. Try searching again
               or go back home.
             </p>
-
-            <MainBtn text={"Back to Home"} to="/home" />
+            <MainBtn text={"Back to Home"} to="/" />
           </div>
         </div>
 
