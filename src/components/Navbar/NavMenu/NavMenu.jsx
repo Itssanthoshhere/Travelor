@@ -7,13 +7,18 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
   const [pagesOpen, setPagesOpen] = useState(false);
   const [tourGuideOpen, setTourGuideOpen] = useState(false);
 
+  const handleLinkClick = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    if (menuOpen) toggleMenu();
+  };
+
   return (
     <>
       <ul className="lg:flex hidden items-start gap-10 text-white">
         <li>
           <Link
             to="/"
-            className="font-semibold text-lg hover:text-prim transition-colors duration-300"
+             onClick={handleLinkClick} className="font-semibold text-lg hover:text-prim transition-colors duration-300"
           >
             Home
           </Link>
@@ -22,7 +27,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
         <li>
           <Link
             to="/about"
-            className="font-semibold text-lg hover:text-prim transition-colors duration-300"
+             onClick={handleLinkClick} className="font-semibold text-lg hover:text-prim transition-colors duration-300"
           >
             About Us
           </Link>
@@ -43,7 +48,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
             <li className="border-b border-gray-200 text-secondary font-medium">
               <Link
                 to="/services"
-                className="block px-4 py-2 hover:translate-x-1 transition"
+                 onClick={handleLinkClick} className="block px-4 py-2 hover:translate-x-1 transition"
               >
                 Services
               </Link>
@@ -52,7 +57,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
             <li className="border-b border-gray-200 text-secondary font-medium">
               <Link
                 to="/service/1"
-                className="block px-4 py-2 hover:translate-x-1 transition"
+                 onClick={handleLinkClick} className="block px-4 py-2 hover:translate-x-1 transition"
               >
                 Services Details
               </Link>
@@ -61,7 +66,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
             <li className="border-b border-gray-200 text-secondary font-medium">
               <Link
                 to="/testimonials"
-                className="block px-4 py-2 hover:translate-x-1 transition"
+                 onClick={handleLinkClick} className="block px-4 py-2 hover:translate-x-1 transition"
               >
                 Testimonials
               </Link>
@@ -80,7 +85,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
                 <li className="border-b border-gray-200 text-secondary font-medium">
                   <Link
                     to="/tourguide"
-                    className="block px-4 py-2 hover:translate-x-1 transition"
+                     onClick={handleLinkClick} className="block px-4 py-2 hover:translate-x-1 transition"
                   >
                     Tour Guide
                   </Link>
@@ -89,7 +94,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
                 <li className="text-secondary font-medium">
                   <Link
                     to="/tourguide/1"
-                    className="block px-4 py-2 hover:translate-x-1 transition"
+                     onClick={handleLinkClick} className="block px-4 py-2 hover:translate-x-1 transition"
                   >
                     Tour Guide Details
                   </Link>
@@ -100,7 +105,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
             <li className="border-b border-gray-200 text-secondary font-medium">
               <Link
                 to="/faqs"
-                className="block px-4 py-2 hover:translate-x-1 transition"
+                 onClick={handleLinkClick} className="block px-4 py-2 hover:translate-x-1 transition"
               >
                 Faqs
               </Link>
@@ -109,7 +114,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
             <li className="border-b border-gray-200 text-secondary font-medium">
               <Link
                 to="/pricing"
-                className="block px-4 py-2 hover:translate-x-1 transition"
+                 onClick={handleLinkClick} className="block px-4 py-2 hover:translate-x-1 transition"
               >
                 Pricing
               </Link>
@@ -118,7 +123,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
             <li className="text-secondary font-medium">
               <Link
                 to="/pagenotfound"
-                className="block px-4 py-2 hover:translate-x-1 transition"
+                 onClick={handleLinkClick} className="block px-4 py-2 hover:translate-x-1 transition"
               >
                 Error-404
               </Link>
@@ -129,7 +134,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
         <li>
           <Link
             to="/destination"
-            className="font-medium text-lg hover:text-prim transition-colors duration-300"
+             onClick={handleLinkClick} className="font-medium text-lg hover:text-prim transition-colors duration-300"
           >
             Destination
           </Link>
@@ -138,7 +143,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
         <li>
           <Link
             to="/tours"
-            className="font-medium text-lg hover:text-prim transition-colors duration-300"
+             onClick={handleLinkClick} className="font-medium text-lg hover:text-prim transition-colors duration-300"
           >
             Tours
           </Link>
@@ -147,7 +152,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
         <li>
           <Link
             to="/blogs"
-            className="font-medium text-lg hover:text-prim transition-colors duration-300"
+             onClick={handleLinkClick} className="font-medium text-lg hover:text-prim transition-colors duration-300"
           >
             Blog
           </Link>
@@ -156,7 +161,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
         <li>
           <Link
             to="/contact"
-            className="font-medium text-lg hover:text-prim transition-colors duration-300"
+             onClick={handleLinkClick} className="font-medium text-lg hover:text-prim transition-colors duration-300"
           >
             Contact
           </Link>
@@ -258,7 +263,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
           <li>
             <Link
               to="/"
-              className="font-medium text-lg hover:text-prim transition-colors duration-300"
+               onClick={handleLinkClick} className="font-medium text-lg hover:text-prim transition-colors duration-300"
             >
               Home
             </Link>
@@ -267,7 +272,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
           <li>
             <Link
               to="/about"
-              className="font-medium text-lg hover:text-prim transition-colors duration-300"
+               onClick={handleLinkClick} className="font-medium text-lg hover:text-prim transition-colors duration-300"
             >
               About Us
             </Link>
@@ -296,7 +301,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
               <li>
                 <Link
                   to="/services"
-                  className="block px-4 py-2 hover:translate-x-1 transition"
+                   onClick={handleLinkClick} className="block px-4 py-2 hover:translate-x-1 transition"
                 >
                   Services
                 </Link>
@@ -305,7 +310,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
               <li>
                 <Link
                   to="/service/1"
-                  className="block px-4 py-2 hover:translate-x-1 transition"
+                   onClick={handleLinkClick} className="block px-4 py-2 hover:translate-x-1 transition"
                 >
                   Services Details
                 </Link>
@@ -314,7 +319,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
               <li>
                 <Link
                   to="/testimonials"
-                  className="block px-4 py-2 hover:translate-x-1 transition"
+                   onClick={handleLinkClick} className="block px-4 py-2 hover:translate-x-1 transition"
                 >
                   Testimonials
                 </Link>
@@ -342,7 +347,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
                   <li className="border-b border-gray-50/20">
                     <Link
                       to="/tourguide"
-                      className="block px-4 py-2 hover:translate-x-1 transition"
+                       onClick={handleLinkClick} className="block px-4 py-2 hover:translate-x-1 transition"
                     >
                       Tour Guide
                     </Link>
@@ -351,7 +356,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
                   <li>
                     <Link
                       to="/tourguide/1"
-                      className="block px-4 py-2 hover:translate-x-1 transition"
+                       onClick={handleLinkClick} className="block px-4 py-2 hover:translate-x-1 transition"
                     >
                       Tour Guide Details
                     </Link>
@@ -362,7 +367,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
               <li>
                 <Link
                   to="/pricing"
-                  className="block px-4 py-2 hover:translate-x-1 transition"
+                   onClick={handleLinkClick} className="block px-4 py-2 hover:translate-x-1 transition"
                 >
                   Pricing
                 </Link>
@@ -373,7 +378,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
           <li>
             <Link
               to="/destination"
-              className="font-medium text-lg hover:text-prim transition-colors duration-300"
+               onClick={handleLinkClick} className="font-medium text-lg hover:text-prim transition-colors duration-300"
             >
               Destination
             </Link>
@@ -382,7 +387,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
           <li>
             <Link
               to="/tours"
-              className="font-medium text-lg hover:text-prim transition-colors duration-300"
+               onClick={handleLinkClick} className="font-medium text-lg hover:text-prim transition-colors duration-300"
             >
               Tours
             </Link>
@@ -391,7 +396,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
           <li>
             <Link
               to="/blogs"
-              className="font-medium text-lg hover:text-prim transition-colors duration-300"
+               onClick={handleLinkClick} className="font-medium text-lg hover:text-prim transition-colors duration-300"
             >
               Blog
             </Link>
@@ -400,7 +405,7 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
           <li>
             <Link
               to="/contact"
-              className="font-medium text-lg hover:text-prim transition-colors duration-300"
+               onClick={handleLinkClick} className="font-medium text-lg hover:text-prim transition-colors duration-300"
             >
               Contact
             </Link>
