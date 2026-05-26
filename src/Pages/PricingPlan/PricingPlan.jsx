@@ -337,9 +337,7 @@ export default function PricingPlan() {
             </h1>
 
             <p className="text-secondary my-2 text-lg lg:w-lg">
-              Maybe for a travel blog, wildlife site, or web development project
-              here are a few sample templates you can use to simulate real-time
-              news updates:
+              Select your preferred travel plan and click "Book Now" to get started. After booking, you'll receive a confirmation email within 24 hours with all trip details, payment receipt, and next steps for scheduling. We offer flexible cancellations and full refunds up to 7 days before departure. Our team will contact you to finalize your itinerary and answer any questions.
             </p>
           </div>
 
