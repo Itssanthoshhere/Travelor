@@ -77,10 +77,10 @@ export default function ToursDetails() {
         </div>
       </div>
 
-      <div class="px-[2%] sm:px-[8%] lg:px-[12%] py-[6%] md:py-[10%] bg-[#EFFFFF] flex justify-between items-start gap-10 flex-wrap lg:flex-nowrap">
-        <div class="tour-left bg-white rounded-3xl w-full lg:w-[70%]">
-          <div class="p-5 md:p-10">
-            <div class="flex items-center gap-2 text-secondary text-sm pb-5">
+      <div className="px-[2%] sm:px-[8%] lg:px-[12%] py-[6%] md:py-[10%] bg-[#EFFFFF] flex justify-between items-start gap-10 flex-wrap lg:flex-nowrap">
+        <div className="tour-left bg-white rounded-3xl w-full lg:w-[70%]">
+          <div className="p-5 md:p-10">
+            <div className="flex items-center gap-2 text-secondary text-sm pb-5">
               ({tour.review})
               <div className="flex items-center">
                 <Icon
@@ -169,18 +169,18 @@ export default function ToursDetails() {
               </div>
             </div>
 
-            <h3 class="text-4xl font-medium text-secondary pb-5 pt-8">
+            <h3 className="text-4xl font-medium text-secondary pb-5 pt-8">
               Package Overview
             </h3>
 
-            <p class="text-secondary text-md">
+            <p className="text-secondary text-md">
               Experience Phuket, Krabi, and Phi Phi Islands with turquoise
               waters and scenic beaches. A perfect blend of island tours,
               snorkeling, and leisure time.
             </p>
 
-            <ul class="space-y-5 pt-5">
-              <li class="flex items-center gap-2 text-secondary font-normal">
+            <ul className="space-y-5 pt-5">
+              <li className="flex items-center gap-2 text-secondary font-normal">
                 <Icon
                   icon="material-symbols:check-circle-rounded"
                   width={25}
@@ -191,7 +191,7 @@ export default function ToursDetails() {
                 <span>Phuket, Krabi &amp; Phi Phi Island stays</span>
               </li>
 
-              <li class="flex items-center gap-2 text-secondary font-normal">
+              <li className="flex items-center gap-2 text-secondary font-normal">
                 <Icon
                   icon="material-symbols:check-circle-rounded"
                   width={25}
@@ -202,7 +202,7 @@ export default function ToursDetails() {
                 <span>Snorkeling and island-hopping tours</span>
               </li>
 
-              <li class="flex items-center gap-2 text-secondary font-normal">
+              <li className="flex items-center gap-2 text-secondary font-normal">
                 <Icon
                   icon="material-symbols:check-circle-rounded"
                   width={25}
@@ -213,7 +213,7 @@ export default function ToursDetails() {
                 <span>Sunset viewpoints &amp; beach activities</span>
               </li>
 
-              <li class="flex items-center gap-2 text-secondary font-normal">
+              <li className="flex items-center gap-2 text-secondary font-normal">
                 <Icon
                   icon="material-symbols:check-circle-rounded"
                   width={25}
@@ -225,12 +225,12 @@ export default function ToursDetails() {
               </li>
             </ul>
 
-            <h3 class="text-4xl font-medium text-secondary pt-5">
+            <h3 className="text-4xl font-medium text-secondary pt-5">
               Additional Easemytrip Delights
             </h3>
 
-            <ul class="space-y-5 pt-5">
-              <li class="flex items-center gap-2 text-secondary font-normal">
+            <ul className="space-y-5 pt-5">
+              <li className="flex items-center gap-2 text-secondary font-normal">
                 <Icon
                   icon="material-symbols:check-circle-rounded"
                   width={25}
@@ -241,7 +241,7 @@ export default function ToursDetails() {
                 <span>Local Thailand travel assistance.</span>
               </li>
 
-              <li class="flex items-center gap-2 text-secondary font-normal">
+              <li className="flex items-center gap-2 text-secondary font-normal">
                 <Icon
                   icon="material-symbols:check-circle-rounded"
                   width={25}
@@ -253,11 +253,11 @@ export default function ToursDetails() {
               </li>
             </ul>
 
-            <h3 class="text-4xl font-medium text-secondary py-5">
+            <h3 className="text-4xl font-medium text-secondary py-5">
               Day Wise Itinerary
             </h3>
 
-            <div class="bg-yellow-light p-5 md:p-10 rounded-3xl">
+            <div className="bg-yellow-light p-5 md:p-10 rounded-3xl">
               {Object.entries(tour.daysDescription).map(
                 ([dayKey, dayData], index) => (
                   <div
@@ -308,17 +308,17 @@ export default function ToursDetails() {
           </div>
         </div>
 
-        <div class="tour-right w-full lg:w-[30%] lg:sticky top-0 h-full right-0">
-          <div class="content bg-white p-5 md:p-10 border border-gray-200 rounded-3xl">
-            <span class="block text-secondary text-sm font-medium pb-2">
+        <div className="tour-right w-full lg:w-[30%] lg:sticky top-0 h-full right-0">
+          <div className="content bg-white p-5 md:p-10 border border-gray-200 rounded-3xl">
+            <span className="block text-secondary text-sm font-medium pb-2">
               Starting from
             </span>
 
-            <span class="text-secondary text-5xl font-semibold font-figtree">
+            <span className="text-secondary text-5xl font-semibold font-figtree">
               {tour.price}
             </span>
 
-            <span class="text-secondary text-sm">/ Person</span>
+            <span className="text-secondary text-sm">/ Person</span>
 
             <MainBtn
               text={"Enquire Now"}
@@ -327,57 +327,57 @@ export default function ToursDetails() {
             />
           </div>
 
-          <div class="content bg-white p-5 md:p-10 border border-gray-200 rounded-3xl mt-8">
-            <ul class="tour-time-duration">
+          <div className="content bg-white p-5 md:p-10 border border-gray-200 rounded-3xl mt-8">
+            <ul className="tour-time-duration">
               <li>
-                <span class="font-bold">Duration :</span>
+                <span className="font-bold">Duration :</span>
 
-                <span class="ng-binding">{tour.duration}</span>
+                <span className="ng-binding">{tour.duration}</span>
               </li>
 
               <li>
-                <span class="font-bold">Places to Visit : </span>
+                <span className="font-bold">Places to Visit : </span>
 
-                <span class="trv-tmi-hlo-info">{tour.places}</span>
+                <span className="trv-tmi-hlo-info">{tour.places}</span>
               </li>
             </ul>
 
-            <div class="relative my-10 btn-package text-center w-full z-1">
+            <div className="relative my-10 btn-package text-center w-full z-1">
               <span>Package Includes</span>
             </div>
 
-            <div class="icon-man-holids">
-              <ul class="flex justify-between flex-wrap">
+            <div className="icon-man-holids">
+              <ul className="flex justify-between flex-wrap">
                 <li>
-                  <div class="holids-icon">
+                  <div className="holids-icon">
                     <img src={icon1} alt="icon" />
                   </div>
 
-                  <div class="my-4">Hotel</div>
+                  <div className="my-4">Hotel</div>
                 </li>
 
                 <li>
-                  <div class="holids-icon">
+                  <div className="holids-icon">
                     <img src={icon2} alt="icon" />
                   </div>
 
-                  <div class="my-4">Sightseeing</div>
+                  <div className="my-4">Sightseeing</div>
                 </li>
 
                 <li>
-                  <div class="holids-icon">
+                  <div className="holids-icon">
                     <img src={icon3} alt="icon" />
                   </div>
 
-                  <div class="my-4">Transfer</div>
+                  <div className="my-4">Transfer</div>
                 </li>
 
                 <li>
-                  <div class="holids-icon">
+                  <div className="holids-icon">
                     <img src={icon4} alt="icon" />
                   </div>
 
-                  <div class="my-4">Meal</div>
+                  <div className="my-4">Meal</div>
                 </li>
               </ul>
             </div>
