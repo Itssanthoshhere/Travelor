@@ -16,6 +16,7 @@ import Tours from "./Pages/Tours/Tours";
 import ToursDetails from "./Pages/Tours/ToursDetails";
 import Blogs from "./Pages/Blogs/Blogs";
 import Contact from "./Pages/Contact/Contact";
+import Page404 from "./Pages/Page404/Page404";
 
 const App = () => {
   return (
@@ -38,6 +39,8 @@ const App = () => {
           <Route path="/tours/:id" element={<ToursDetails />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/pagenotfound" element={<Page404 />} />
+          <Route path="*" element={<Page404 />} />
         </Routes>
         <Footer />
       </BrowserRouter>
