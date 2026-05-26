@@ -106,6 +106,15 @@ const NavMenu = ({ menuOpen, toggleMenu }) => {
               </Link>
             </li>
 
+            <li className="border-b border-gray-200 text-secondary font-medium">
+              <Link
+                to="/pricing"
+                className="block px-4 py-2 hover:translate-x-1 transition"
+              >
+                Pricing
+              </Link>
+            </li>
+
             <li className="text-secondary font-medium">
               <Link
                 to="/error"

@@ -9,6 +9,7 @@ import Testimonials from "./Pages/Testimonials/Testimonials";
 import TourGuide from "./Pages/TourGuide/TourGuide";
 import TourGuideDetails from "./Pages/TourGuide/TourGuideDetails";
 import Faqs from "./Pages/Faqs/Faqs";
+import PricingPlan from "./Pages/PricingPlan/PricingPlan";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/tourguide" element={<TourGuide />} />
           <Route path="/tourguide/:id" element={<TourGuideDetails />} />
           <Route path="/faqs" element={<Faqs />} />
+          <Route path="/pricing" element={<PricingPlan />} />
         </Routes>
         <Footer />
       </BrowserRouter>
