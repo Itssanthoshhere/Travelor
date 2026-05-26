@@ -158,7 +158,7 @@ export default function PricingPlan() {
               </ul>
 
               <div className="flex justify-center items-center">
-                <MainBtn to="/contact" text={"Shop Now"} />
+                <MainBtn to="/contact" text={"Book Now"} />
               </div>
             </div>
           </div>
@@ -240,7 +240,7 @@ export default function PricingPlan() {
               </ul>
 
               <div className="flex justify-center items-center">
-                <MainBtn to="/contact" text={"Shop Now"} />
+                <MainBtn to="/contact" text={"Book Now"} />
               </div>
             </div>
           </div>
@@ -322,7 +322,7 @@ export default function PricingPlan() {
               </ul>
 
               <div className="flex justify-center items-center">
-                <MainBtn to="/contact" text={"Shop Now"} />
+                <MainBtn to="/contact" text={"Book Now"} />
               </div>
             </div>
           </div>
